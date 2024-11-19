@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Culture - Celebrating Black Excellence</title>
+    <!-- Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Optional Custom Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header (Bootstrap) -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">The Culture</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section (Tailwind CSS) -->
+    <section id="home" class="bg-black text-white py-20 px-4">
+        <div class="max-w-4xl mx-auto text-center">
+            <h1 class="text-4xl md:text-6xl font-bold">Welcome to The Culture</h1>
+            <p class="mt-4 text-lg">Celebrating Black excellence, heritage, and innovation.</p>
+            <button class="mt-6 bg-yellow-500 hover:bg-yellow-600 text-black font-semibold py-2 px-4 rounded">
+                Learn More
+            </button>
+        </div>
+    </section>
+
+    <!-- Features Section (Either Tailwind or Bootstrap) -->
+    <section id="features" class="py-12 bg-gray-100">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8">Key Features</h2>
+            <div class="grid gap-8 md:grid-cols-3">
+                <div class="text-center p-6 border rounded shadow-sm bg-white">
+                    <span class="text-4xl">🎨</span>
+                    <h3 class="mt-4 text-xl font-semibold">Creative Expression</h3>
+                    <p class="mt-2">Showcasing unique talent and artistic contributions.</p>
+                </div>
+                <div class="text-center p-6 border rounded shadow-sm bg-white">
+                    <span class="text-4xl">🤝</span>
+                    <h3 class="mt-4 text-xl font-semibold">Community Support</h3>
+                    <p class="mt-2">Empowering and uplifting communities through collaboration.</p>
+                </div>
+                <div class="text-center p-6 border rounded shadow-sm bg-white">
+                    <span class="text-4xl">📚</span>
+                    <h3 class="mt-4 text-xl font-semibold">Heritage Preservation</h3>
+                    <p class="mt-2">Keeping cultural legacies alive for generations to come.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- Testimonials Section (Bootstrap) -->
+<section id="testimonials" class="py-12 bg-white text-gold-100">
+    <div class="container">
+        <h2 class="text-3xl font-bold text-center mb-8">Testimonials</h2>
+        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-flex flex-column justify-content-center align-items-center text-center">
+                        <blockquote class="blockquote">
+                            <p class="mb-4">"The Culture has transformed my view on Black heritage."</p>
+                        </blockquote>
+                        <footer class="blockquote-footer mt-2 text-gold-300">John Okafor</footer>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex flex-column justify-content-center align-items-center text-center">
+                        <blockquote class="blockquote">
+                            <p class="mb-4">"An inspiring platform for creative expression."</p>
+                        </blockquote>
+                        <footer class="blockquote-footer mt-2 text-gold-300">Mike Dean</footer>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#testimonialCarousel" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#testimonialCarousel" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Footer (Tailwind CSS) -->
+    <footer class="bg-black text-white py-4">
+        <div class="max-w-6xl mx-auto px-4 flex justify-between items-center">
+            <p>&copy; 2024 The Culture. All Rights Reserved.</p>
+            <div class="flex space-x-4">
+                <a href="#" class="hover:underline">Twitter</a>
+                <a href="#" class="hover:underline">Instagram</a>
+                <a href="#" class="hover:underline">Facebook</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle (with Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
